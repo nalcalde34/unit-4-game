@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.crystals{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.crystal{
+    border: groove black;
+    height: 150px;
+    width: 150px;
+    
+
+}
+.crystal:hover{
+    padding: 15px;
+}
+img {
+    width: 50px;
+    
+}
